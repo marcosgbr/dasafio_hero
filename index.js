@@ -4,7 +4,7 @@ class hero{
         this.age = age
         this.type = type
     }
-    attack(){
+    attack(){ //Poderia utilizar o switch
        if (this.type === "Mago"){
             return "magia"
         }else if(this.type === "Guerreiro"){
